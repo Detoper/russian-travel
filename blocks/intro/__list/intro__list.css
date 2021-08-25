@@ -1,4 +1,6 @@
 .intro__list {
+  list-style-type:none;
+  padding: 0;
     margin: 0 0 92px;
     font-style: normal;
     font-weight: bold;

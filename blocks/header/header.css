@@ -1,5 +1,5 @@
 .header {
-    width: calc(100%-2*28px);
+    width: calc(100% - 2*28px);
     margin: 0 48px;
     padding: 28px 0 0;
     display: flex;
@@ -11,13 +11,13 @@
 @media (max-width: 768px) {
     .header {
         margin: 0 24px;
-        width: calc(100%-2*24px);
+        width: calc(100% - 2*24px);
     }
 }
 
 @media (max-width: 320px) {
     .header {
-        width: calc(100%-2*16px);
+        width: calc(100% - 2*16px);
         margin: 0 16px;
         padding: 16px 0 0;
     }

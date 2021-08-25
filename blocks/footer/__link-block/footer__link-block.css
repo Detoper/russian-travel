@@ -1,0 +1,8 @@
+.footer__link-block {}
+
+@media (max-width: 320px) {
+    .footer__link-block {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,4 @@
+.header__link-block {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,11 @@
+.header__lang-link {
+    margin: 0 0 6px 18px;
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.17;
+    justify-self: end;
+    align-self: baseline;
+}

@@ -4,8 +4,8 @@
     font-size: 30px;
     line-height: 1.2;
     text-align: center;
-    width: 640;
-    height: 72;
+    max-width: 640px;
+
 
 }
 

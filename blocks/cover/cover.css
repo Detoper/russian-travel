@@ -5,8 +5,26 @@
     position: relative;
     display: flex;
     align-items: stretch;
+    margin: 44px 48px 0;
 }
 
+@media (max-width: 1024px) {
+  .cover {
+    margin: 44px 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin: 16px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    margin: 40px 0 0;
+  }
+}
 .cover:before {
     content: "";
     display: block;

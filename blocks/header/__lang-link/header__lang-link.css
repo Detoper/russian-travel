@@ -9,3 +9,15 @@
     justify-self: end;
     align-self: baseline;
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 320px) {
+  .header__lang-link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

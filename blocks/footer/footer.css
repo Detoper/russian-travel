@@ -3,20 +3,25 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 92px 48px 0;
+    margin: 92px calc((100vw - 1184px)/2) 0;
+    max-width: 1184px;
 }
 
-@media (max-width: 768px) {
-  .footer {
-      margin: 88px 24px 0;
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 1280px) {
     .footer {
-        flex-direction: column;
-        margin: 97px 16px 0;
+        margin: 88px 48px 0;
     }
 }
 
+@media (max-width: 768px) {
+    .footer {
+        margin: 88px 24px 0;
+    }
+}
 
+@media (max-width: 580px) {
+    .footer {
+        flex-direction: column;
+        margin: 64px 16px 0;
+    }
+}

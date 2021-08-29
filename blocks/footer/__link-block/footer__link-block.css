@@ -1,8 +1,10 @@
-.footer__link-block {}
+.footer__link-block {
+    display: flex;
+    flex-direction: row;
+}
 
-@media (max-width: 320px) {
+@media (max-width: 580px) {
     .footer__link-block {
-        display: flex;
         flex-direction: column;
     }
 }

@@ -1,34 +1,37 @@
-.cover {
-    background-image: url(https://www.karriere.de/images/25750726-3/aufbruchstimmung.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: stretch;
-    margin: 44px 48px 0;
-}
-
-@media (max-width: 1024px) {
-  .cover {
-    margin: 44px 0 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover {
-    margin: 16px 0 0;
-  }
-}
-
-@media (max-width: 320px) {
-  .cover {
-    margin: 40px 0 0;
-  }
-}
-.cover:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    padding-top: 62.6%;
-}
+        .cover {
+        background-image: url(https://www.karriere.de/images/25750726-3/aufbruchstimmung.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        align-items: stretch;
+        margin: 44px calc((100vw - 1184px)/2) 0;
+        max-width: 1184px;
+    }
+    
+    @media (max-width: 1280px) {
+        .cover {
+            margin: 44px 48px 0;
+        }
+        @media (max-width: 1024px) {
+            .cover {
+                margin: 44px 0 0;
+            }
+        }
+        @media (max-width: 768px) {
+            .cover {
+                margin: 16px 0 0;
+            }
+        }
+        @media (max-width: 320px) {
+            .cover {
+                margin: 40px 0 0;
+            }
+        }
+        .cover:before {
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            padding-top: 62.6%;
+        }
